@@ -1,0 +1,16 @@
+/* In your global stylesheet, e.g., App.css */
+@keyframes marqueeAnimation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marqueeAnimation 10s linear infinite;
+  }
+  
